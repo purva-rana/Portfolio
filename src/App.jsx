@@ -1,10 +1,9 @@
 import React from "react";
 import Navbar from './components/Navbar';
 import Hero from "./components/Hero";
-// import About from './components/About';
-// import Projects from './components/Projects';
-// import Contact from './components/Contact';
-// import Footer from './components/Footer';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -12,9 +11,9 @@ function App() {
       <Navbar />
       <main className="container mx-auto px-6 lg:px-8">
         <Hero />
-        {/* <About />
+        <About />
         <Projects />
-        <Contact /> */}
+        <Contact />
       </main>
     </div>
   );

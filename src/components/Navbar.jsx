@@ -18,7 +18,8 @@ export default function Navbar(){
         </nav>
 
         <div className="flex items-center gap-3">
-          <a className="hidden sm:inline-block btn-secondary px-3 py-2 rounded-md" href="/PurvaRana_Resume.pdf" download="PurvaRana_Resume.pdf">Resume</a>
+          <a className="hidden sm:inline-block btn-primary px-3 py-2 rounded-md" href="/PurvaRana_Resume.pdf" target="_blank"
+  rel="noopener noreferrer" >Resume</a>
           <button className="md:hidden p-2 rounded-md border border-[rgba(255,255,255,0.04)]">Menu</button>
         </div>
       </div>
