@@ -87,14 +87,14 @@ export default function Hero() {
             >
               <button className="btn-primary">Discover More</button>
             </ScrollLink>
-            <ScrollLink
+            {/* <ScrollLink
               to="projects"
               smooth
               offset={-80}
               className="cursor-pointer"
             >
               <button className="button-secondary">Explore My Work</button>
-            </ScrollLink>
+            </ScrollLink> */}
           </div>
         </div>
 

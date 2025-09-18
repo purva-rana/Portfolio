@@ -1,5 +1,5 @@
 import React from "react";
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import Hero from "./components/Hero";
 // import About from './components/About';
 // import Projects from './components/Projects';
@@ -9,7 +9,7 @@ import Hero from "./components/Hero";
 function App() {
   return (
     <div className="min-h-screen bg-[color:var(--bg-900)] text-[color:var(--muted-ink)]">
-      {/* <Navbar /> */}
+      <Navbar />
       <main className="container mx-auto px-6 lg:px-8">
         <Hero />
         {/* <About />
