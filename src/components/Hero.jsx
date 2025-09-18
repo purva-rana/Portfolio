@@ -44,7 +44,6 @@ export default function Hero() {
       id="hero"
       className="relative  w-full flex justify-center items-center pt-12 pb-20"
     >
-
       <div className="grid md:grid-cols-2 gap-8 items-center container mx-auto px-6 lg:px-8">
         <div className="max-w-xl z-30 relative">
           {/* Screen-reader friendly full headline immediately available */}
@@ -85,9 +84,17 @@ export default function Hero() {
               offset={-80}
               className="cursor-pointer"
             >
-              <button className="btn-primary">Discover More</button>
+              {/* 👇 We are converting this button into a motion.button and adding animation props */}
+              <motion.button
+                className="btn-primary" // Your existing class for styling (gradient, padding, etc.)
+                whileHover={{ scale: 1.02 }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
+                Discover More
+              </motion.button>
             </ScrollLink>
-            {/* <ScrollLink
+          </div>
+          {/* <ScrollLink
               to="projects"
               smooth
               offset={-80}
@@ -95,16 +102,18 @@ export default function Hero() {
             >
               <button className="button-secondary">Explore My Work</button>
             </ScrollLink> */}
-          </div>
         </div>
 
         {/* hero art placeholder */}
-        <div className="hero-art w-full flex justify-center items-center z-0" aria-hidden="true">
+        <div
+          className="hero-art w-full flex justify-center items-center z-0"
+          aria-hidden="true"
+        >
           <div
             className="w-[420px] h-[300px] rounded-2xl"
             style={{
               background: "linear-gradient(120deg,#7C5CFF,#5DD3FF)",
-              boxShadow: "0 12px 40px rgba(2,6,23,0.6)"
+              boxShadow: "0 12px 40px rgba(2,6,23,0.6)",
             }}
           />
         </div>

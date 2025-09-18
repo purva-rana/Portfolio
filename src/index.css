@@ -33,10 +33,17 @@ body {
 /* Primary button style fallback if not using Tailwind utilities */
 .btn-primary {
   background: linear-gradient(120deg, var(--lavender), var(--sky-blue));
-  color: var(--bg-900);
+  color: var(--muted-ink);
   border-radius: 999px;
   padding: 10px 18px;
   font-weight: 600;
+   background-size: 200% auto; /* 1. Make the background gradient twice as wide */
+  background-position: 0% 0%;   /* 2. Set the starting position of the gradient */
+  transition: background-position 0.4s ease-in-out; /* 3. Make the shift smooth */
+}
+
+.btn-primary:hover {
+  background-position: 100% 0%; /* On hover, slide the gradient to the other end */
 }
 
 /* Respect prefers-reduced-motion */
