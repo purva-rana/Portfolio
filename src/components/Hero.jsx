@@ -37,7 +37,7 @@ export default function Hero() {
   }, []);
 
   const subline =
-    "Builder × Designer — blending engineering precision with design creativity to craft experiences people trust and enjoy.";
+    "My work explores the intersection of code, design, and cognition—creating tools that don't just automate, but collaborate.";
 
   return (
     <section
