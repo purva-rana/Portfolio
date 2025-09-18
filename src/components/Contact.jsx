@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Contact(){
   return (
-    <section id="contact" className="py-12">
-      <div className="max-w-2xl">
+    <section id="contact" className="py-12 mx-auto px-6">
+      <div className="max-w-2xl mx-auto px-6">
         <h2 className="text-2xl font-semibold mb-4">Let's connect</h2>
         <p className="text-[color:var(--muted-gray)] mb-6">I’m open to research conversations, RA/intern collaborations, and project partnerships.</p>
 
