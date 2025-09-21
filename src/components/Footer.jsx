@@ -47,7 +47,7 @@ export default function Footer() {
         {/* Social media links */}
         <div className="flex items-center gap-4">
           <a
-            href="YOUR_GITHUB_LINK_HERE"
+            href="https://github.com/purva-rana"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[color:var(--muted-gray)] hover:text-white transition-colors"
@@ -55,7 +55,7 @@ export default function Footer() {
             <GitHubIcon />
           </a>
           <a
-            href="YOUR_LINKEDIN_LINK_HERE"
+            href="https://www.linkedin.com/in/purva-rana"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[color:var(--muted-gray)] hover:text-white transition-colors"
