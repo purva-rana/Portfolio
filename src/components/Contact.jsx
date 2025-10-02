@@ -57,7 +57,7 @@ export default function Contact() {
     >
       <div className="max-w-2xl mx-auto text-center">
         <motion.h2 variants={itemVariants} className="text-3xl font-semibold mb-4">
-          Have an Idea? Let's Talk.
+          Let's Connect.
         </motion.h2>
 
         <motion.p variants={itemVariants} className="text-[color:var(--muted-gray)] mb-8">
