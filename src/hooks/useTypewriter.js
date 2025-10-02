@@ -1,13 +1,13 @@
 // src/hooks/useTypewriter.js
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
-// A clean, reusable hook for the typewriter effect.
 export function useTypewriter(text, speed = 60) {
   const [typedText, setTypedText] = useState('');
   const [isDone, setIsDone] = useState(false);
+  const index = useRef(0);
+  const timeoutId = useRef(null);
 
   useEffect(() => {
-    // Gracefully handle OS-level preference for reduced motion.
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (prefersReduced) {
       setTypedText(text);
@@ -15,23 +15,29 @@ export function useTypewriter(text, speed = 60) {
       return;
     }
 
-    let i = 0;
+    // Reset everything on each run
     setTypedText('');
     setIsDone(false);
+    index.current = 1; // Start index at 1 for the first slice
 
-    const timer = setInterval(() => {
-      if (i < text.length) {
-        setTypedText(prev => prev + text.charAt(i));
-        i++;
+    const type = () => {
+      if (index.current <= text.length) {
+        // Build the string from the original source using slice
+        // This is more reliable than appending characters
+        setTypedText(text.slice(0, index.current));
+        index.current++;
+        timeoutId.current = setTimeout(type, speed);
       } else {
         setIsDone(true);
-        clearInterval(timer);
       }
-    }, speed);
+    };
 
-    // Cleanup function to prevent memory leaks.
-    return () => clearInterval(timer);
-  }, [text, speed]); // Reruns only if text or speed changes.
+    // Start the first tick
+    timeoutId.current = setTimeout(type, speed);
+
+    // Cleanup clears the scheduled timeout
+    return () => clearTimeout(timeoutId.current);
+  }, [text, speed]);
 
   return { typedText, isDone };
 }

@@ -18,7 +18,7 @@ export default function Hero() {
   const headline = "Hi! I'm Purva Rana";
   const { typedText: typed, isDone: done } = useTypewriter(headline);
 
-  const subline = "My work explores the intersection of code, design, and cognition—creating tools that don't just automate, but collaborate.";
+  const subline = "My work explores the intersection of code, design, and cognition - creating tools that don't just automate, but collaborate.";
 
   return (
     <section id="hero" className="relative flex items-center w-full px-6 py-20 lg:px-8">
