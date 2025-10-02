@@ -8,7 +8,7 @@ export default function About() {
   return (
     <motion.section
       id="about"
-      className="pb-8 px-6 max-w-8xl mx-auto" 
+      className="py-8 px-6 max-w-3xl mx-auto" 
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.1 }} // Trigger when 10% is in view

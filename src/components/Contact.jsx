@@ -42,12 +42,22 @@ export default function Contact() {
         <p className="text-[color:var(--muted-gray)] mb-6">I'm open to research conversations, RA/intern collaborations, and project partnerships.</p>
 
         <form className="grid gap-4" onSubmit={handleSubmit}>
+          
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            className="p-3 rounded-md bg-[color:var(--surface-800)] border border-[rgba(255,255,255,0.04)] text-left"
+            rows="4"
+            placeholder="Message"
+            required
+          />
           <input
             name="name"
             value={formData.name}
             onChange={handleChange}
             className="p-3 rounded-md bg-[color:var(--surface-800)] border border-[rgba(255,255,255,0.04)] text-left"
-            placeholder="Your name"
+            placeholder="From"
             required
           />
           <input
@@ -57,15 +67,6 @@ export default function Contact() {
             className="p-3 rounded-md bg-[color:var(--surface-800)] border border-[rgba(255,255,255,0.04)] text-left"
             placeholder="Your email"
             type="email"
-            required
-          />
-          <textarea
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            className="p-3 rounded-md bg-[color:var(--surface-800)] border border-[rgba(255,255,255,0.04)] text-left"
-            rows="4"
-            placeholder="Message"
             required
           />
           <motion.button

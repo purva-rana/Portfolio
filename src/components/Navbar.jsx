@@ -52,6 +52,7 @@ export default function Navbar() {
   const navLinks = [
     { to: "hero", label: "Home" },
     { to: "about", label: "About" },
+    {to:"skills", label:"Skills"},
     { to: "projects", label: "Projects" },
     { to: "contact", label: "Contact" },
   ];
