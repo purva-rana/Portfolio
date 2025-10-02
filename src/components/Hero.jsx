@@ -26,9 +26,10 @@ export default function Hero() {
       id="hero"
       className="relative flex items-center w-full px-6 py-20 lg:px-8"
     >
-      <div className="container mx-auto grid items-center gap-12 md:grid-cols-2">
+      
+      <div className="mx-auto grid items-center gap-12 md:grid-cols-3 max-w-5xl">
         {/* Text Content: Ordered first for mobile, centered on mobile */}
-        <div className="z-10 max-w-xl text-center md:text-left">
+        <div className="z-10 max-w-xl text-center md:text-left md:col-span-2">
           <span className="sr-only">
             {headline} — {subline}
           </span>
