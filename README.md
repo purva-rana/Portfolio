@@ -35,5 +35,6 @@ This portfolio is a project in itself, demonstrating a range of modern web devel
 | Hosting | Vercel | 
 
 <br>
+
 ## 📬 Contact
 Feel free to connect with me on [LinkedIn](https://linkedin.com/in/purva-rana) or explore my other projects on [GitHub](https://github.com/purva-rana).
