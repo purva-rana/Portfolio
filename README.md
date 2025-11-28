@@ -1,12 +1,40 @@
-# React + Vite
+# [Purva Rana | Personal Portfolio](https://purvaportfolio-theta.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+<img src="/public/hero_screenshot.png" alt="Portfolio hero section" width="800"/>
+</p>
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Philosophy
+This isn't just a portfolio; it's a digital embodiment of my core professional interest: designing and building intelligent systems where humans and AI collaborate. My work explores the intersection of code, design, and cognition to create tools that don't just automate, but augment human creativity and productivity. This site was built from the ground up to reflect that philosophy—it's clean, interactive, and built with a keen attention to the details that create a seamless user experience.
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Features
+This portfolio is a project in itself, demonstrating a range of modern web development practices:
+
+- Engaging Animations: Built with Framer Motion for a fluid and polished user experience, from the initial typewriter effect to staggered on-scroll reveals.
+
+- Fully Responsive Design: A mobile-first approach ensures a flawless viewing experience on all devices, from phones to ultra-wide desktops.
+
+- Interactive UI: Dynamic project filtering and subtle hover effects invite user interaction and make the site feel alive.
+
+- Full-Stack Contact Form: A serverless backend function handles form submissions securely, using Resend to deliver messages directly to my inbox.
+
+- Accessibility Conscious: Implemented with semantic HTML and ARIA attributes to ensure it's usable by everyone.
+<br>
+
+## 🛠️ Tech Stack & Tools
+
+| Category | Technology |
+|:---:|:---:|
+| Frontend | React, Vite |
+| Animation | Framer-motion |
+| Backend | Vercel Serverless Function, Resend |
+| Hosting | Vercel | 
+
+<br>
+
+## 📬 Contact
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/purva-rana) or explore my other projects on [GitHub](https://github.com/purva-rana).
