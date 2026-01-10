@@ -18,7 +18,7 @@ export default function About() {
       <p className="text-[color:var(--muted-)] leading-relaxed">
         I'm Purva Rana, a builder and designer who thrives at the intersection
         of human-AI collaboration, interaction design, and applied research. My
-        focus is on creating systems that feel alive — not just working in the
+        focus is on creating systems that feel alive - not just working in the
         background, but engaging people with clarity, care, and delight.
         Experiences that feel natural, thoughtful, and genuinely enjoyable. I
         believe technology should amplify creativity and productivity, not
@@ -34,7 +34,7 @@ export default function About() {
         aesthetics and constraints. Blending the precision of engineering with
         the eye of design, I explore how intelligence can be shaped into tools
         that inspire, empower, and evolve with people. For me, it's not just
-        about code or design alone — it's about designing intelligence with
+        about code or design alone, it's about designing intelligence with
         purpose.
       </p>
     </motion.section>
