@@ -12,7 +12,7 @@ export default function About() {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.1 }} // Trigger when 10% is in view
-      transition={{ duration: 0.5, ease: "easeOut", delay: isMobile ? 0 : 1.7 }}
+      transition={{ duration: 0.5, ease: "easeOut", delay: isMobile ? 0 : 0.5 }}
     >
       <h2 className="text-2xl font-semibold mb-4">About</h2>
       <p className="text-[color:var(--muted-)] leading-relaxed">

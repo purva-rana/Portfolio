@@ -1,4 +1,3 @@
-// src/components/Navbar.jsx
 'use client';
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -48,12 +47,11 @@ const AnimatedHamburgerIcon = ({ isOpen, onClick }) => {
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Define nav links in an array for cleaner, reusable code (Don't Repeat Yourself)
   const navLinks = [
     { to: "hero", label: "Home" },
-    { to: "about", label: "About" },
-    {to:"skills", label:"Skills"},
     { to: "projects", label: "Projects" },
+    { to: "about", label: "About Me" },
+    {to:"skills", label:"Skills"},
     { to: "contact", label: "Contact" },
   ];
 
@@ -77,7 +75,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <a
             className="hidden md:inline-block btn-primary px-4 py-2"
-            href="/PurvaRana_Resume.pdf" // Use the "safe" version
+            href="/PurvaRana_Resume.pdf" 
             target="_blank"
             rel="noopener noreferrer"
           >

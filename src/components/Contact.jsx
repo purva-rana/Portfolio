@@ -5,7 +5,6 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SiGithub, SiLinkedin } from 'react-icons/si';
 
-// Consistent animation variants from other sections
 const containerVariants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.15 } },

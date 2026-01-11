@@ -14,9 +14,9 @@ function App() {
       <Navbar />
       <main className="container mx-auto px-6 lg:px-8">
         <Hero />
+        <Projects />
         <About />
         <Skills />
-        <Projects />
         <Contact />
         <Footer />
       </main>
