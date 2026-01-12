@@ -1,6 +1,3 @@
-// src/components/Hero.jsx
-
-import React from "react";
 import { motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
 import { useTypewriter } from "../hooks/useTypewriter";
@@ -19,7 +16,11 @@ export default function Hero() {
   const { typedText: typed, isDone: done } = useTypewriter(headline);
 
   const subline =
-    "My work explores the intersection of code, design, and cognition - creating tools that don't just automate, but collaborate.";
+    "I build human-centered intelligent systems at the intersection of applied AI, Human-AI Collaboration, and spatial computing (AR/VR).";
+  
+  const credibility =
+    "Research-driven systems • real-world constraints • design-forward engineering";
+
 
   return (
     <section
@@ -44,7 +45,6 @@ export default function Hero() {
             )}
           </h1>
 
-          {/* Staggered animation container for subline and button */}
           <motion.div
             variants={containerVariants}
             initial="hidden"
@@ -53,9 +53,16 @@ export default function Hero() {
           >
             <motion.p
               variants={itemVariants}
-              className="text-lg text-slate-400"
+              className="text-lg text-slate-300"
             >
               {subline}
+            </motion.p>
+
+             <motion.p
+              variants={itemVariants}
+              className="mt-3 text-sm tracking-wide text-slate-400"
+            >
+              {credibility}
             </motion.p>
 
             <motion.div variants={itemVariants} className="mt-8">
@@ -70,7 +77,7 @@ export default function Hero() {
                   whileHover={{ scale: 1.03 }}
                   transition={{ type: "spring", stiffness: 400, damping: 15 }}
                 >
-                  Discover More
+                  Explore My Work
                 </motion.button>
               </ScrollLink>
             </motion.div>
