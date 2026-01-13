@@ -9,7 +9,26 @@ const projects = [
     tech: "Python · Generative AI · 3D Reconstruction · ARKit",
     status: "In Progress",
     github: "https://github.com/purva-rana/histARy",
-    showCTA: true,   
+    showCTA: true,
+  },
+  {
+    id: "mindscapevr",
+    title: "MindscapeVR: Neural Rescue",
+    category: "XR / Medical Simulation Research",
+    subtitle: "A spatial computing approach to neurosurgical training in immersive VR.",
+    features: [
+      "XR-Based Neurosurgical Training System",
+      "Custom Neural Architecture Modeling (3D)",
+      "Dynamic Trauma Visualization",
+      "Embodied Interaction via OpenXR"
+    ],
+    impact:
+      "Examines how immersive, spatially grounded VR environments can improve understanding of neurological trauma and support the development of surgical intuition, compared to static 2D medical representations.",
+    tech:
+      "Unity (URP) · OpenXR · XR Interaction Toolkit · Blender · Meta Quest 2",
+    status: "Research Prototype",
+    github: "https://github.com/purva-rana/MindscapeVR",
+    showCTA: true
   },
   {
     id: "tca",
@@ -21,7 +40,7 @@ const projects = [
     tech: "Python · NLP · Custom Dataset",
     status: "Testing Phase",
     github: "https://github.com/purva-rana/terms-n-conditions-summarizer",
-    showCTA: true,   
+    showCTA: true,
   },
   {
     id: "rythmiq",
@@ -33,7 +52,7 @@ const projects = [
     tech: "Python · Spotify API · React",
     status: "Backend Complete",
     github: "https://github.com/purva-rana",
-    showCTA: false,   
+    showCTA: false,
   },
   {
     id: "phams",
@@ -45,7 +64,7 @@ const projects = [
     tech: "JavaFX · Spring Boot · SQL",
     status: "Deployed (Demo)",
     github: "https://github.com/purva-rana",
-    showCTA: false,   
+    showCTA: false,
   },
   {
     id: "pantry",
@@ -57,7 +76,7 @@ const projects = [
     tech: "React · Firebase · Generative AI",
     status: "Prototype",
     github: "https://github.com/purva-rana",
-    showCTA: false,   
+    showCTA: false,
   }
 ];
 
