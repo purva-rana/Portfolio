@@ -8,6 +8,8 @@ const projects = [
     impact: "Brings lost historical sites to life, demonstrating a novel fusion of AI and AR for cultural preservation.",
     tech: "Python · Generative AI · 3D Reconstruction · ARKit",
     status: "In Progress",
+    github: "https://github.com/purva-rana/histARy",
+    showCTA: true,   
   },
   {
     id: "tca",
@@ -18,6 +20,8 @@ const projects = [
     impact: "Empowers users to understand contracts by automatically flagging potentially unfavorable clauses, saving time and reducing risk.",
     tech: "Python · NLP · Custom Dataset",
     status: "Testing Phase",
+    github: "https://github.com/purva-rana/terms-n-conditions-summarizer",
+    showCTA: true,   
   },
   {
     id: "rythmiq",
@@ -28,6 +32,8 @@ const projects = [
     impact: "Creates hyper-personalized playlists that adapt to user intent, going beyond Spotify's standard recommendations.",
     tech: "Python · Spotify API · React",
     status: "Backend Complete",
+    github: "https://github.com/purva-rana",
+    showCTA: false,   
   },
   {
     id: "phams",
@@ -38,6 +44,8 @@ const projects = [
     impact: "Centralized patient and staff data to enhance operational efficiency and ensure data integrity across multiple hospitals.",
     tech: "JavaFX · Spring Boot · SQL",
     status: "Deployed (Demo)",
+    github: "https://github.com/purva-rana",
+    showCTA: false,   
   },
   {
     id: "pantry",
@@ -48,6 +56,8 @@ const projects = [
     impact: "Transformed a simple inventory tracker into a smart assistant that minimizes food waste through intelligent recipe suggestions.",
     tech: "React · Firebase · Generative AI",
     status: "Prototype",
+    github: "https://github.com/purva-rana",
+    showCTA: false,   
   }
 ];
 
