@@ -1,13 +1,18 @@
 const projects = [
   {
     id: "histary",
-    title: "histARy",
-    category: "AI / AR / Capstone",
-    subtitle: "Reconstructing History in Augmented Reality.",
-    features: ["GenAI Image Upscaling", "3D Scene Reconstruction", "Interactive AR Overlay"],
-    impact: "Brings lost historical sites to life, demonstrating a novel fusion of AI and AR for cultural preservation.",
-    tech: "Python · Generative AI · 3D Reconstruction · ARKit",
-    status: "In Progress",
+    title: "HistARy: History in Augmented Reality",
+    category: "AR / Computer Vision Research",
+    subtitle: "A scalable pipeline for digital reconstruction and AR visualization of heritage monuments.",
+    features: ["Automated Image Collection & Semantic Filtering",
+      "Photogrammetry-Based 3D Reconstruction",
+      "Real-Time AR Anchoring for On-Site Visualization"
+    ],
+    impact: 
+      "Investigates how computer vision and AR pipelines can enable non-invasive digital preservation of heritage sites, allowing historical structures to be visualized in their original context without physical restoration or alteration.",
+    tech: 
+      "Unity · Vuforia · Blender · Python · OpenCV · COLMAP · YOLOv8 · CLIP",
+    status: "Research Prototype",
     github: "https://github.com/purva-rana/histARy",
     showCTA: true,
   },
