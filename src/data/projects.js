@@ -17,18 +17,6 @@ const projects = [
     showCTA: true,
   },
   {
-    id: "phams",
-    title: "PHAMS",
-    category: "Full-Stack",
-    subtitle: "A Full-Stack Enterprise System for Hospital Management.",
-    features: ["Secure Role-Based Dashboards", "Real-time Appointment Matrix", "Data Integrity Constraints"],
-    impact: "Centralized patient and staff data to enhance operational efficiency and ensure data integrity across multiple hospitals.",
-    tech: "JavaFX · Spring Boot · SQL",
-    status: "Deployed (Demo)",
-    github: "https://github.com/purva-rana/PHAMS",
-    showCTA: false,
-  },
-  {
     id: "mindscapevr",
     title: "MindscapeVR: Neural Rescue",
     category: "XR / Medical Simulation Research",
@@ -46,6 +34,18 @@ const projects = [
     status: "Research Prototype",
     github: "https://github.com/purva-rana/MindscapeVR",
     showCTA: true
+  },
+   {
+    id: "phams",
+    title: "PHAMS",
+    category: "Full-Stack",
+    subtitle: "A Full-Stack Enterprise System for Hospital Management.",
+    features: ["Secure Role-Based Dashboards", "Real-time Appointment Matrix", "Data Integrity Constraints"],
+    impact: "Centralized patient and staff data into a unified platform, simplifying hospital operations by reducing manual scheduling, improving information accessibility, and ensuring reliable data consistency across core workflows.",
+    tech: "JavaFX · Spring Boot · SQL",
+    status: "Prototype",
+    github: "https://github.com/purva-rana/PHAMS",
+    showCTA: true,
   },
   {
     id: "tca",
