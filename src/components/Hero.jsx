@@ -16,10 +16,10 @@ export default function Hero() {
   const { typedText: typed, isDone: done } = useTypewriter(headline);
 
   const subline =
-    "I build human-centered intelligent systems at the intersection of applied AI, Human-AI Collaboration, and spatial computing (AR/VR).";
+    "I build intelligent, interactive systems at the intersection of software engineering, spatial computing (AR/VR), and scientific data.";
   
   const credibility =
-    "Research-driven systems • real-world constraints • design-forward engineering";
+    "MS Computer Science @ Duke • Graphics • AR/VR • AI/ML";
 
 
   return (
