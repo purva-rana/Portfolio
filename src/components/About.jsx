@@ -17,24 +17,22 @@ export default function About() {
       <h2 className="text-2xl font-semibold mb-4">About</h2>
       <p className="text-[color:var(--muted-)] leading-relaxed">
         I'm Purva Rana, a builder and designer who thrives at the intersection
-        of human-AI collaboration, interaction design, and applied research. My
-        focus is on creating systems that feel alive - not just working in the
-        background, but engaging people with clarity, care, and delight.
+        of software engineering, interaction design, and applied research. My
+        focus is on creating systems that feel alive. Systems that don't just working in the
+        background, but engage people with clarity, care, and delight.
         Experiences that feel natural, thoughtful, and genuinely enjoyable. I
-        believe technology should amplify creativity and productivity, not
-        diminish it.
+        believe technology should amplify creativity and productivity.
       </p>
 
       <p className="mt-4 text-[color:var(--muted-ink)] leading-relaxed">
         As a US citizen who grew up with an early education in India, I bring a
         multicultural lens to my work, understanding that the best technology
         adapts to human context, not the other way around. This background
-        informs my approach to everything from building robust, multilingual NLP
-        models to designing user interfaces that respect different cultural
+        informs my approach to everything from building interactive scientific visualization systems to designing user interfaces that respect different cultural
         aesthetics and constraints. Blending the precision of engineering with
-        the eye of design, I explore how intelligence can be shaped into tools
+        the eye of design, I explore how complex systems and intelligence can be shaped into tools
         that inspire, empower, and evolve with people. For me, it's not just
-        about code or design alone, it's about designing intelligence with
+        about code or design alone, it's about building technology with
         purpose.
       </p>
     </motion.section>
