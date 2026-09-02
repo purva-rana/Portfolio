@@ -60,7 +60,7 @@ export default function Contact() {
         </motion.h2>
 
         <motion.p variants={itemVariants} className="text-[color:var(--muted-gray)] mb-8">
-          Whether it's a question, a project collaboration, or a chat about the future of human-AI interaction—my inbox is always open.
+          Whether it's a question, a project collaboration, or a chat about the future of human-AI interaction, my inbox is always open
         </motion.p>
 
         {/* --- Social Links --- */}
