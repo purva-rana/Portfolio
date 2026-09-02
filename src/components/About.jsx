@@ -18,7 +18,7 @@ export default function About() {
       <p className="text-[color:var(--muted-)] leading-relaxed">
         I'm Purva Rana, a builder and designer who thrives at the intersection
         of software engineering, interaction design, and applied research. My
-        focus is on creating systems that feel alive. Systems that don't just working in the
+        focus is on creating systems that feel alive. Systems that don't just work in the
         background, but engage people with clarity, care, and delight.
         Experiences that feel natural, thoughtful, and genuinely enjoyable. I
         believe technology should amplify creativity and productivity.
